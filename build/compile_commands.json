@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/PROGA/Proga/C++/Table_lab/build",
+  "command": "C:/w64devkit/bin/g++.exe   -g -o CMakeFiles/main.dir/main.cpp.obj -c D:/PROGA/Proga/C++/Table_lab/main.cpp",
+  "file": "D:/PROGA/Proga/C++/Table_lab/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/PROGA/Proga/C++/Table_lab/build",
+  "command": "C:/w64devkit/bin/g++.exe   -g -o CMakeFiles/main.dir/ArrayTable.cpp.obj -c D:/PROGA/Proga/C++/Table_lab/ArrayTable.cpp",
+  "file": "D:/PROGA/Proga/C++/Table_lab/ArrayTable.cpp",
+  "output": "CMakeFiles/main.dir/ArrayTable.cpp.obj"
+},
+{
+  "directory": "D:/PROGA/Proga/C++/Table_lab/build",
+  "command": "C:/w64devkit/bin/g++.exe   -g -o CMakeFiles/main.dir/ScanTable.cpp.obj -c D:/PROGA/Proga/C++/Table_lab/ScanTable.cpp",
+  "file": "D:/PROGA/Proga/C++/Table_lab/ScanTable.cpp",
+  "output": "CMakeFiles/main.dir/ScanTable.cpp.obj"
+},
+{
+  "directory": "D:/PROGA/Proga/C++/Table_lab/build",
+  "command": "C:/w64devkit/bin/g++.exe   -g -o CMakeFiles/main.dir/TabRecord.cpp.obj -c D:/PROGA/Proga/C++/Table_lab/TabRecord.cpp",
+  "file": "D:/PROGA/Proga/C++/Table_lab/TabRecord.cpp",
+  "output": "CMakeFiles/main.dir/TabRecord.cpp.obj"
+},
+{
+  "directory": "D:/PROGA/Proga/C++/Table_lab/build",
+  "command": "C:/w64devkit/bin/g++.exe   -g -o CMakeFiles/main.dir/SortTable.cpp.obj -c D:/PROGA/Proga/C++/Table_lab/SortTable.cpp",
+  "file": "D:/PROGA/Proga/C++/Table_lab/SortTable.cpp",
+  "output": "CMakeFiles/main.dir/SortTable.cpp.obj"
+}
+]

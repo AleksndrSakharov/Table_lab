@@ -1,0 +1,3 @@
+D:/PROGA/Proga/C++/Table_lab/build/CMakeFiles/main.dir
+D:/PROGA/Proga/C++/Table_lab/build/CMakeFiles/edit_cache.dir
+D:/PROGA/Proga/C++/Table_lab/build/CMakeFiles/rebuild_cache.dir
