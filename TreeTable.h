@@ -12,6 +12,12 @@ struct TreeNode
     TreeNode(Key key, PDataValue data) : _key(key), _data(data){
 
     }
+    PTreeNode left(){
+
+    }
+    PTreeNode right(){
+        
+    }
 };
 
 
@@ -28,9 +34,6 @@ public:
         TreeTable(size_t size = 100);  
         ~TreeTable();
         bool IsFull() const override;
-        virtual bool Reset() override;
-        virtual bool IsTabEnded() const override;
-        virtual bool GoNext() override;
 
         virtual Key GetKey() const override;
         virtual PDataValue GetValue() const override;

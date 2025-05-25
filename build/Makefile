@@ -153,6 +153,54 @@ ArrayTable.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ArrayTable.cpp.s
 .PHONY : ArrayTable.cpp.s
 
+HashArray.obj: HashArray.cpp.obj
+.PHONY : HashArray.obj
+
+# target to build an object file
+HashArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HashArray.cpp.obj
+.PHONY : HashArray.cpp.obj
+
+HashArray.i: HashArray.cpp.i
+.PHONY : HashArray.i
+
+# target to preprocess a source file
+HashArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HashArray.cpp.i
+.PHONY : HashArray.cpp.i
+
+HashArray.s: HashArray.cpp.s
+.PHONY : HashArray.s
+
+# target to generate assembly for a file
+HashArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HashArray.cpp.s
+.PHONY : HashArray.cpp.s
+
+HashTable.obj: HashTable.cpp.obj
+.PHONY : HashTable.obj
+
+# target to build an object file
+HashTable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HashTable.cpp.obj
+.PHONY : HashTable.cpp.obj
+
+HashTable.i: HashTable.cpp.i
+.PHONY : HashTable.i
+
+# target to preprocess a source file
+HashTable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HashTable.cpp.i
+.PHONY : HashTable.cpp.i
+
+HashTable.s: HashTable.cpp.s
+.PHONY : HashTable.s
+
+# target to generate assembly for a file
+HashTable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HashTable.cpp.s
+.PHONY : HashTable.cpp.s
+
 ScanTable.obj: ScanTable.cpp.obj
 .PHONY : ScanTable.obj
 
@@ -225,6 +273,30 @@ TabRecord.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TabRecord.cpp.s
 .PHONY : TabRecord.cpp.s
 
+TreeTable.obj: TreeTable.cpp.obj
+.PHONY : TreeTable.obj
+
+# target to build an object file
+TreeTable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TreeTable.cpp.obj
+.PHONY : TreeTable.cpp.obj
+
+TreeTable.i: TreeTable.cpp.i
+.PHONY : TreeTable.i
+
+# target to preprocess a source file
+TreeTable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TreeTable.cpp.i
+.PHONY : TreeTable.cpp.i
+
+TreeTable.s: TreeTable.cpp.s
+.PHONY : TreeTable.s
+
+# target to generate assembly for a file
+TreeTable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TreeTable.cpp.s
+.PHONY : TreeTable.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -261,6 +333,12 @@ help:
 	@echo "... ArrayTable.obj"
 	@echo "... ArrayTable.i"
 	@echo "... ArrayTable.s"
+	@echo "... HashArray.obj"
+	@echo "... HashArray.i"
+	@echo "... HashArray.s"
+	@echo "... HashTable.obj"
+	@echo "... HashTable.i"
+	@echo "... HashTable.s"
 	@echo "... ScanTable.obj"
 	@echo "... ScanTable.i"
 	@echo "... ScanTable.s"
@@ -270,6 +348,9 @@ help:
 	@echo "... TabRecord.obj"
 	@echo "... TabRecord.i"
 	@echo "... TabRecord.s"
+	@echo "... TreeTable.obj"
+	@echo "... TreeTable.i"
+	@echo "... TreeTable.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
