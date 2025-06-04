@@ -1,3 +1,4 @@
+#pragma once
 #include "ScanTable.h"
 
 enum SortMethod {Insert, Merge, Quick};

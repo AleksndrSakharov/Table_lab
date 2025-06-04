@@ -1078,6 +1078,7 @@ CMakeFiles/main.dir/main.cpp.obj: D:/PROGA/Proga/C++/Table_lab/main.cpp \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/cpp_type_traits.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/cxxabi_forced.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/deque.tcc \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/exception.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/exception_defines.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/exception_ptr.h \
@@ -1118,12 +1119,14 @@ CMakeFiles/main.dir/main.cpp.obj: D:/PROGA/Proga/C++/Table_lab/main.cpp \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_algobase.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_bvector.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_construct.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_deque.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_function.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_types.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_numeric.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_pair.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_stack.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_uninitialized.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_vector.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/streambuf.tcc \
@@ -1151,6 +1154,7 @@ CMakeFiles/main.dir/main.cpp.obj: D:/PROGA/Proga/C++/Table_lab/main.cpp \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cwctype \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/debug/assertions.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/debug/debug.h \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/deque \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/exception \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ext/alloc_traits.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ext/atomicity.h \
@@ -1174,6 +1178,7 @@ CMakeFiles/main.dir/main.cpp.obj: D:/PROGA/Proga/C++/Table_lab/main.cpp \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/random \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ratio \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/sstream \
+  C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/stack \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/stdexcept \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/stdlib.h \
   C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/streambuf \
@@ -1262,7 +1267,9 @@ CMakeFiles/main.dir/main.cpp.obj: D:/PROGA/Proga/C++/Table_lab/main.cpp \
   D:/PROGA/Proga/C++/Table_lab/SortTable.h \
   D:/PROGA/Proga/C++/Table_lab/TabRecord.h \
   D:/PROGA/Proga/C++/Table_lab/Table.h \
-  D:/PROGA/Proga/C++/Table_lab/TableTestKit.h
+  D:/PROGA/Proga/C++/Table_lab/TableTestKit.h \
+  D:/PROGA/Proga/C++/Table_lab/TreeNode.h \
+  D:/PROGA/Proga/C++/Table_lab/TreeTable.h
 
 
 C:/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/cxxabi_init_exception.h:

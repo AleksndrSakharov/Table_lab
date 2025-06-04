@@ -6,7 +6,13 @@
 #include <ctime> 
 #include <chrono>
 #include <iomanip>
+#include "ArrayTable.h"
+#include "DatValue.h"
 #include "ScanTable.h"
+#include "Table.h"
+#include "SortTable.h"
+#include "TabRecord.h"
+#include "TreeTable.h"
 #include "Marks.h"
 
 class TableTestKit{
