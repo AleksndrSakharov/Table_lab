@@ -1,5 +1,7 @@
 #pragma once 
-#include<iostream>
+#include <iostream>
+#include <cstdint>
+#include <iomanip>
 #include "DatValue.h"
 
 using Key = std::string;

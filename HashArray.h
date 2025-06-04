@@ -1,29 +1,33 @@
-#include"HashTable.h"
-#include"ArrayTable.h"
+#pragma once
+#include "HashTable.h"
+#include "ArrayTable.h"
+#include "TabRecord.h"
 
-class HashArray: public HashTable{
-    protected:
-        size_t _tableSize;
-        size_t _hashStep;
-        PTabRecord* _records;
-        size_t _curPos;
-        size_t _freePos;
-        PTabRecord _mark;
-        size_t GetNextPos(size_t pos){
-            return (pos + _hashStep) % _tableSize;
-        }
-    public:
-        HashArray(size_t size = 100, size_t hashStep = 7);  // посмотреть правильный рассчёт hashStep
-        ~HashArray();
-        bool IsFull() const override;
-        virtual bool Reset() override;
-        virtual bool IsTabEnded() const override;
-        virtual bool GoNext() override;
+class HashArray : public HashTable {
+protected: 
+    size_t _tabSize;
+    size_t _hashStep;
+    PTabRecord* _records;
+    size_t _currPos;
+    long _freePos;
+    PTabRecord _mark;
+    size_t GetNExtPos(size_t pos){
+        return (pos + _hashStep) % _tabSize;
+    }
+public:
+    HashArray(size_t size = 100, size_t hashStep = 7);
+    ~HashArray();
 
-        virtual Key GetKey() const override;
-        virtual PDataValue GetValue() const override;
+    bool IsFull() const override;
+    bool Reset() override;
+    bool IsTabEnded() const override;
+    bool GoNext() override;
 
-        virtual PDataValue FindRecord(Key key) override;
-        virtual void DelRecotd(Key key) override;
-        virtual void InsRecord(Key key, PDataValue value) override;
+    Key GetKey() const override;
+    PDataValue GetValue() const override;
+
+    PDataValue FindRecord(Key key) override;
+    void DelRecotd(Key key) override;
+    void InsRecord(Key key, PDataValue value) override;
+
 };

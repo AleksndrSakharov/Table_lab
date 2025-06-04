@@ -1,46 +1,55 @@
+#pragma once
+#include "TreeNode.h"
 #include "Table.h"
-
-using PTreeNode = TreeNode*;
-
-struct TreeNode
-{
-    Key _key;
-    PDataValue _data;
-    TreeNode() : _key(""), _data(nullptr){
-
-    }
-    TreeNode(Key key, PDataValue data) : _key(key), _data(data){
-
-    }
-    PTreeNode left(){
-
-    }
-    PTreeNode right(){
-        
-    }
-};
-
+#include <stack>
+#include <string>
 
 class TreeTable : public Table
 {
+protected:
+    PTreeNode _pRoot;
+    PTreeNode* _ppRef;
+    PTreeNode _pCurrent;
+    size_t _currPos;
+    std::stack<PTreeNode> _stack;
+    std::string _s[20];
+    size_t _cap[20];
+    size_t _pos;
+    void  PrintTreeTable(std::ostream &stream, PTreeNode root);
+    void DrawTreeTable(PTreeNode root, size_t lvl);
+    void DeleteTreeTable(PTreeNode node);
+    void PutValues(PTreeNode node,size_t lvl);
 public:
-     protected:
-        size_t _tabSize;
-        size_t _curPos;
-        PTreeNode _pRoot;
-        PTreeNode _ppRef;
-        PTreeNode _pCurrent;
-    public:
-        TreeTable(size_t size = 100);  
-        ~TreeTable();
-        bool IsFull() const override;
+    TreeTable() : Table(){
+        _currPos = 0;
+        _pRoot = nullptr;
+        _pCurrent = nullptr;
+        _ppRef = nullptr;
+    }
 
-        virtual Key GetKey() const override;
-        virtual PDataValue GetValue() const override;
+    ~TreeTable(){
+        DeleteTreeTable(_pRoot);
+    }
+    bool IsFull() const override;
 
-        virtual PDataValue FindRecord(Key key) override;
-        virtual void DelRecotd(Key key) override;
-        virtual void InsRecord(Key key, PDataValue value) override;
+    bool Reset() override;
+    bool IsTabEnded() const override;
+    bool GoNext() override;
+
+    Key GetKey() const override;
+    PDataValue GetValue() const override;
+
+    PDataValue FindRecord(Key key) override;
+    void DelRecotd(Key key) override;
+    void InsRecord(Key key, PDataValue value) override;
+
+    friend std::ostream& operator<<(std::ostream& stream, TreeTable& table){
+        std::cout << "Table printing" << std::endl;
+        table.PrintTreeTable(stream, table._pRoot);
+        return stream;
+    }
+    void Draw();
+    void Show();
 };
 
 
