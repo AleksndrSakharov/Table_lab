@@ -36,5 +36,6 @@ public:
     friend class ScanTable;
     friend class ArrayTable;
     friend class SortTable;
-    
+    friend class HashTable;
+    friend class TreeTable;
 };
