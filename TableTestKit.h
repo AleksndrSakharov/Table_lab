@@ -6,8 +6,8 @@
 #include <ctime> 
 #include <chrono>
 #include <iomanip>
-#include"ScanTable.h"
-#include"Marks.h"
+#include "ScanTable.h"
+#include "Marks.h"
 
 class TableTestKit{
     private:
